@@ -1,7 +1,59 @@
 public class Hi
 {
-public static void main (String[]args)
+public static void main (String[]args
 {
   System.out.println("Test");
-}
+
+  // ideas and brainstorming 
+  // avian biochemistry calculator
+  // this would be a web-based calculator that estimates nutritional requirements for
+  // birds based on species, weight, and activity level
+
+  // bird feather oil contamination simulator
+  // this might simulate how different compounds from oil spills affect feather
+  // waterproofing over time? 
+
+  // nest material chemical compatability checker
+  // a database of common nest materials and how they would react with environmental
+  // chemicals (acid rain for example.)
+
+  // migratory bird biofuel impact map
+  // this shows overlap between biofuel crop regions (ethanol/biodiesel)
+  // and major migratory flyways
+
+  // avian enzyme temperature kinetics visualizer
+  // interactive graph showing how temperature affects digestive enzymes
+  // in different bird species?
+
+  // web-based apps?
+  // pesticide advisor
+
+  // chemical solvent safety advisor with dow fire and explosion index
+  // you can like evaluate explosion and fire risks in chemical plants
+  // chemical quantities, storage conditions 
+  // might be able to add an air pollution impact on local birds
+
+  // batch reactor simulator
+  // continuous stirred-tank reactor - reactant conversion over time
+  // reaction kinetics (A turns into B, rate constant)
+  // initial concentrations turn into concentration vs. time and yield efficiency
+
+  // plastics biodegradability database: simple i/o program
+  // input dropdown plastic type, check environment, and output the decomposition
+  // time and microplastic risk to wildlife!
+
+  // air pollution scrubber calculator - designs wet scrubbers
+  // gas flow rate (m3/s)
+  // ppm
+  // outputs scrubber dimensions and efficiency (%)
+  // impact on local bird respiratory health?
+
+  // distillation column mini-game, drag and drop trays to optimize benzene
+  // and toluene separation
+  // so you adjust feed stage + reflux ratio and get purity (%) animation
+
+  // pH impact on feathers, dropdown pH, get a microscopic structure visualization
+  // and waterproofing loss
+
+  // 
 }
