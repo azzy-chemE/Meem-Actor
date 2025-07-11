@@ -1,59 +1,27 @@
-public class Hi
-{
-public static void main (String[]args
-{
-  System.out.println("Test");
+import java.util.Scanner;
 
-  // ideas and brainstorming 
-  // avian biochemistry calculator
-  // this would be a web-based calculator that estimates nutritional requirements for
-  // birds based on species, weight, and activity level
+public class Project {
+    public static void main(String[] args) {
+        // okay - I'm going to go with the batch reactor simulator.
 
-  // bird feather oil contamination simulator
-  // this might simulate how different compounds from oil spills affect feather
-  // waterproofing over time? 
+        System.out.println("Helloooo! Nice to meet you! I'm Meemaw, a chemical engineer here to help!");
+        System.out.println("I'm going to set up a batch reactor, where a stirred-tank reactor will run and you can see the reactant conversion over time!");
+        System.out.println("The reaction is A → B. What is reactant A?");
 
-  // nest material chemical compatability checker
-  // a database of common nest materials and how they would react with environmental
-  // chemicals (acid rain for example.)
+        Scanner scanner = new Scanner(System.in); // Create Scanner object
+        String A = scanner.nextLine(); // Read entire line of input
 
-  // migratory bird biofuel impact map
-  // this shows overlap between biofuel crop regions (ethanol/biodiesel)
-  // and major migratory flyways
+        System.out.println("Cool! And what is product B you want to get? Please input something possible. I'm too lazy to deal with your mistakes for you, LOL.");
+        String B = scanner.nextLine();
 
-  // avian enzyme temperature kinetics visualizer
-  // interactive graph showing how temperature affects digestive enzymes
-  // in different bird species?
-
-  // web-based apps?
-  // pesticide advisor
-
-  // chemical solvent safety advisor with dow fire and explosion index
-  // you can like evaluate explosion and fire risks in chemical plants
-  // chemical quantities, storage conditions 
-  // might be able to add an air pollution impact on local birds
-
-  // batch reactor simulator
-  // continuous stirred-tank reactor - reactant conversion over time
-  // reaction kinetics (A turns into B, rate constant)
-  // initial concentrations turn into concentration vs. time and yield efficiency
-
-  // plastics biodegradability database: simple i/o program
-  // input dropdown plastic type, check environment, and output the decomposition
-  // time and microplastic risk to wildlife!
-
-  // air pollution scrubber calculator - designs wet scrubbers
-  // gas flow rate (m3/s)
-  // ppm
-  // outputs scrubber dimensions and efficiency (%)
-  // impact on local bird respiratory health?
-
-  // distillation column mini-game, drag and drop trays to optimize benzene
-  // and toluene separation
-  // so you adjust feed stage + reflux ratio and get purity (%) animation
-
-  // pH impact on feathers, dropdown pH, get a microscopic structure visualization
-  // and waterproofing loss
-
-  // 
+        // Example: ask user a Yes/No question
+        System.out.println("Do you want to continue? (Yes/No)");
+        String choice = scanner.nextLine();
+        if (choice.equalsIgnoreCase("Yes") || choice.equalsIgnoreCase("No")) {
+            System.out.println("Ok, cool!");
+        } else {
+            System.out.println("Invalid choice.");
+        }
+        scanner.close();
+    }
 }
